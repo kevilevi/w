@@ -1,17 +1,13 @@
-import win32api
-import win32con
+import pyautogui
+import subprocess
 import time
-
-def unlock_pc(password):
-    # Wait for the lock screen to appear
-    time.sleep(5)
-
-    # Send keystrokes to the lock screen
-    for char in password:
-        vk_code = ord(char)
-        win32api.keybd_event(vk_code, 0, 0, 0)
-        time.sleep(0.1)
-    win32api.keybd_event(win32con.VK_RETURN, 0, 0, 0)  # Send Enter key
-
-# Call the function to unlock the PC
-unlock_pc('5555')
+path = r"C:\Users\murug\Downloads\winnnnnnnnnnnnn\winmonitor-common.exe"
+subprocess.Popen(path)
+time.sleep(7)
+pyautogui.press("tab")                
+time.sleep(0.5)
+pyautogui.typewrite("12849", 0.05)    
+time.sleep(0.5)
+pyautogui.press("tab")                
+time.sleep(0.5)
+pyautogui.press("space")              
